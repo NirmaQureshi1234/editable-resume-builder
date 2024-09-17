@@ -1,0 +1,75 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e2e2;
+  }
+  
+  .container { 
+    align-items: center;
+    width: 80%;
+    max-width: 500px;
+    margin: 40px auto;
+    background-color:rgb(223, 223, 223);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 25 25 10px rgba(27, 13, 27, 0.1);
+     border: 2px solid rgb(196, 190, 190);
+  }
+  
+  h1 {
+    text-align: center; 
+    text-decoration: underline rgb(139, 156, 212);
+    color: black;
+  }
+  
+  #resume h2 {
+    border-bottom: 2px solid #acc9e9;
+    padding-bottom: 10px;
+    color: #639edd; 
+    align-items: center;
+  }
+  
+  #resume p {
+    margin: 10px 0;
+  }
+  
+  .editable {
+    display: inline-block;
+    padding: 4px;
+    border: 1px dashed transparent;
+    cursor: pointer;
+    transition: border 0.2s ease;
+  }
+  
+  .editable:hover {
+    border: 1px dashed #bd8f5b;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: #4787cc;
+    color: rgb(43, 39, 39);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(107, 99, 216);
+  }
+  
+  button:active {
+    background-color: rgb(223, 103, 143); 
+    transform: scale(1.05); 
+}
+  input {
+    border: 1px solid #413d3d;
+    padding: 4px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+  }
